@@ -12,14 +12,13 @@
 
 #include "libft.h"
 
-void	upper_lower(unsigned int i, char *c)
-{
-	if (i % 2)
-		*c = ft_toupper(*c);
-	else
-		*c = ft_tolower(*c);
-}
-
+// void	upper_lower(unsigned int i, char *c)
+// {
+// 	if (i % 2)
+// 		*c = ft_toupper(*c);
+// 	else
+// 		*c = ft_tolower(*c);
+// }
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	unsigned int	i;

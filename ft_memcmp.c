@@ -32,18 +32,19 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 
 /*int main()
 {
-	char	arr1[] = "hello";
-	char	arr2[] = "heLlo";
-	int		result;
 
-	result = ft_memcmp(arr1, arr2, 5);
-	if (result == 0) {
-		printf("The memory blocks are equal.\n");
-	} else if (result < 0) {
-		printf("arr1 is less than arr2.\n");
-	} else {
-		printf("arr1 is greater than arr2.\n");
-	}
-	return (0);
+	// char	arr1[] = "hello";
+	// char	arr2[] = "heLlo";
+	// int		result;
+	//
+	// result = ft_memcmp(arr1, arr2, 5);
+	// if (result == 0) {
+	// 	printf("The memory blocks are equal.\n");
+	// } else if (result < 0) {
+	// 	printf("arr1 is less than arr2.\n");
+	// } else {
+	// 	printf("arr1 is greater than arr2.\n");
+	// }
+	// return (0);
 }
 */
