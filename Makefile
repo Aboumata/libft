@@ -26,7 +26,7 @@ all: $(NAME)
 $(NAME): $(OBJ)
 	ar rcs $(NAME) $(OBJ)
 
-bonus: $(NAME) $(BONUS_OBJ)
+bonus: $(OBJ) $(BONUS_OBJ)
 	ar rcs $(NAME) $(BONUS_OBJ)
 
 clean:
@@ -37,6 +37,4 @@ fclean: clean
 
 re: fclean all
 
-.SECONDARY: $(OBJ) $(BONUS_OBJ)
-
-.PHONY: all clean fclean re bonus
+.PHONY: all clean fclean bonus re
